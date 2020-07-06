@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C08766D14F003C6009C3DFD /* 100_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1C08766B14F003C6009C3DFD /* 100_ExamWorld.sqlite */; };
+		1C08766E14F003C6009C3DFD /* 101_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1C08766C14F003C6009C3DFD /* 101_ExamWorld.sqlite */; };
+		1C18FB8715C4A60100CDF161 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18FB8615C4A60100CDF161 /* Default-Landscape@2x~ipad.png */; };
+		1C2E6EC71497A90800511649 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E6EC51497A90800511649 /* AnswerViewController.m */; };
+		1C2E6EC81497A90800511649 /* AnswerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E6EC61497A90800511649 /* AnswerViewController.xib */; };
+		1C59A4C015D7D7E00038F961 /* AppIcon144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C59A4BF15D7D7E00038F961 /* AppIcon144x144.png */; };
+		1C66858915C2CCC9006FB236 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C66858815C2CCC9006FB236 /* Default-Portrait@2x~ipad.png */; };
+		1C66858B15C2CCDD006FB236 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C66858A15C2CCDD006FB236 /* Default-Landscape~ipad.png */; };
+		1C89D3B714827B1500D51407 /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C89D3B614827B1500D51407 /* ThirdTableViewController.m */; };
+		1C89D3BA14827D0A00D51407 /* FourthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C89D3B914827D0A00D51407 /* FourthTableViewController.m */; };
+		1C8EC92F149309E600766FB7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8EC92E149309E600766FB7 /* libsqlite3.dylib */; };
+		1CA16DF01477E65700EEC532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA16DEF1477E65700EEC532 /* UIKit.framework */; };
+		1CA16DF21477E65700EEC532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA16DF11477E65700EEC532 /* Foundation.framework */; };
+		1CA16DF41477E65700EEC532 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA16DF31477E65700EEC532 /* CoreGraphics.framework */; };
+		1CA16DFA1477E65700EEC532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CA16DF81477E65700EEC532 /* InfoPlist.strings */; };
+		1CA16DFC1477E65700EEC532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA16DFB1477E65700EEC532 /* main.m */; };
+		1CA16E001477E65700EEC532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA16DFF1477E65700EEC532 /* AppDelegate.m */; };
+		1CA16E081477E65700EEC532 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA16E071477E65700EEC532 /* SenTestingKit.framework */; };
+		1CA16E091477E65700EEC532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA16DEF1477E65700EEC532 /* UIKit.framework */; };
+		1CA16E0A1477E65700EEC532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA16DF11477E65700EEC532 /* Foundation.framework */; };
+		1CA16E121477E65700EEC532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CA16E101477E65700EEC532 /* InfoPlist.strings */; };
+		1CA16E151477E65700EEC532 /* ExamWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA16E141477E65700EEC532 /* ExamWorldTests.m */; };
+		1CA16E211477E68900EEC532 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA16E1F1477E68900EEC532 /* FirstTableViewController.m */; };
+		1CA16E221477E68900EEC532 /* FirstTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA16E201477E68900EEC532 /* FirstTableViewController.xib */; };
+		1CA16E311478058500EEC532 /* SecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA16E301478058500EEC532 /* SecondLevelViewController.m */; };
+		1CA16E341478066600EEC532 /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA16E331478066600EEC532 /* SecondTableViewController.m */; };
+		1CC43F82149A48EF00232CC0 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC43F80149A48EF00232CC0 /* libGoogleAdMobAds.a */; };
+		1CC43F83149A48EF00232CC0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1CC43F81149A48EF00232CC0 /* README.txt */; };
+		1CC43F89149A518C00232CC0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC43F88149A518B00232CC0 /* MediaPlayer.framework */; };
+		1CC43F8B149A519D00232CC0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC43F8A149A519D00232CC0 /* MessageUI.framework */; };
+		1CC43F8D149A51AC00232CC0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC43F8C149A51AC00232CC0 /* AudioToolbox.framework */; };
+		1CC43F8F149A51D400232CC0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC43F8E149A51D400232CC0 /* SystemConfiguration.framework */; };
+		1CD7A8DF14ACB06300311DF8 /* 82_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8CD14ACB06300311DF8 /* 82_ExamWorld.sqlite */; };
+		1CD7A8E014ACB06300311DF8 /* 83_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8CE14ACB06300311DF8 /* 83_ExamWorld.sqlite */; };
+		1CD7A8E114ACB06300311DF8 /* 84_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8CF14ACB06300311DF8 /* 84_ExamWorld.sqlite */; };
+		1CD7A8E214ACB06300311DF8 /* 85_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8D014ACB06300311DF8 /* 85_ExamWorld.sqlite */; };
+		1CD7A8E314ACB06300311DF8 /* 86_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8D114ACB06300311DF8 /* 86_ExamWorld.sqlite */; };
+		1CD7A8E414ACB06300311DF8 /* 87_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8D214ACB06300311DF8 /* 87_ExamWorld.sqlite */; };
+		1CD7A8E514ACB06300311DF8 /* 88_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8D314ACB06300311DF8 /* 88_ExamWorld.sqlite */; };
+		1CD7A8E614ACB06300311DF8 /* 89_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8D414ACB06300311DF8 /* 89_ExamWorld.sqlite */; };
+		1CD7A8E714ACB06300311DF8 /* 90_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8D514ACB06300311DF8 /* 90_ExamWorld.sqlite */; };
+		1CD7A8E814ACB06300311DF8 /* 91_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8D614ACB06300311DF8 /* 91_ExamWorld.sqlite */; };
+		1CD7A8E914ACB06300311DF8 /* 92_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8D714ACB06300311DF8 /* 92_ExamWorld.sqlite */; };
+		1CD7A8EA14ACB06300311DF8 /* 93_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8D814ACB06300311DF8 /* 93_ExamWorld.sqlite */; };
+		1CD7A8EB14ACB06300311DF8 /* 94_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8D914ACB06300311DF8 /* 94_ExamWorld.sqlite */; };
+		1CD7A8EC14ACB06300311DF8 /* 95_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8DA14ACB06300311DF8 /* 95_ExamWorld.sqlite */; };
+		1CD7A8ED14ACB06300311DF8 /* 96_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8DB14ACB06300311DF8 /* 96_ExamWorld.sqlite */; };
+		1CD7A8EE14ACB06300311DF8 /* 97_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8DC14ACB06300311DF8 /* 97_ExamWorld.sqlite */; };
+		1CD7A8EF14ACB06300311DF8 /* 98_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8DD14ACB06300311DF8 /* 98_ExamWorld.sqlite */; };
+		1CD7A8F014ACB06300311DF8 /* 99_ExamWorld.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8DE14ACB06300311DF8 /* 99_ExamWorld.sqlite */; };
+		1CD7A8FA14B1705C00311DF8 /* AppIcon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8F914B1705C00311DF8 /* AppIcon114x114.png */; };
+		1CD7A8FF14B1712300311DF8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8FE14B1712300311DF8 /* Default.png */; };
+		1CD7A90114B1713300311DF8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A90014B1713300311DF8 /* Default@2x.png */; };
+		1CD7A90314B1714A00311DF8 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A90214B1714A00311DF8 /* Default-Portrait~ipad.png */; };
+		1CD7A90514B1743800311DF8 /* AppIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A90414B1743800311DF8 /* AppIcon72x72.png */; };
+		1CD7A91514B75AF500311DF8 /* AppIcon57X57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A8FC14B1706A00311DF8 /* AppIcon57X57.png */; };
+		1CEE3841148B1CE00064A4E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEE3840148B1CE00064A4E6 /* QuartzCore.framework */; };
+		1CEE3846148B1D610064A4E6 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEE3844148B1D610064A4E6 /* QuestionViewController.m */; };
+		1CEE3847148B1D610064A4E6 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CEE3845148B1D610064A4E6 /* QuestionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CA16E0B1477E65700EEC532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CA16DE21477E65700EEC532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA16DEA1477E65700EEC532;
+			remoteInfo = ExamWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C08766B14F003C6009C3DFD /* 100_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 100_ExamWorld.sqlite; path = SqliteFile/100_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1C08766C14F003C6009C3DFD /* 101_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 101_ExamWorld.sqlite; path = SqliteFile/101_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1C18FB8615C4A60100CDF161 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		1C2E6EC41497A90800511649 /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
+		1C2E6EC51497A90800511649 /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
+		1C2E6EC61497A90800511649 /* AnswerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerViewController.xib; sourceTree = "<group>"; };
+		1C59A4BF15D7D7E00038F961 /* AppIcon144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon144x144.png; sourceTree = "<group>"; };
+		1C66858815C2CCC9006FB236 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		1C66858A15C2CCDD006FB236 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		1C89D3B514827B1500D51407 /* ThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
+		1C89D3B614827B1500D51407 /* ThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
+		1C89D3B814827D0A00D51407 /* FourthTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthTableViewController.h; sourceTree = "<group>"; };
+		1C89D3B914827D0A00D51407 /* FourthTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthTableViewController.m; sourceTree = "<group>"; };
+		1C8EC92E149309E600766FB7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1CA16DEB1477E65700EEC532 /* 公職考卷.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "公職考卷.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA16DEF1477E65700EEC532 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1CA16DF11477E65700EEC532 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1CA16DF31477E65700EEC532 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1CA16DF71477E65700EEC532 /* ExamWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExamWorld-Info.plist"; sourceTree = "<group>"; };
+		1CA16DF91477E65700EEC532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CA16DFB1477E65700EEC532 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CA16DFD1477E65700EEC532 /* ExamWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExamWorld-Prefix.pch"; sourceTree = "<group>"; };
+		1CA16DFE1477E65700EEC532 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CA16DFF1477E65700EEC532 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CA16E061477E65700EEC532 /* ExamWorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamWorldTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA16E071477E65700EEC532 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1CA16E0F1477E65700EEC532 /* ExamWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExamWorldTests-Info.plist"; sourceTree = "<group>"; };
+		1CA16E111477E65700EEC532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CA16E131477E65700EEC532 /* ExamWorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExamWorldTests.h; sourceTree = "<group>"; };
+		1CA16E141477E65700EEC532 /* ExamWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamWorldTests.m; sourceTree = "<group>"; };
+		1CA16E1E1477E68900EEC532 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		1CA16E1F1477E68900EEC532 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		1CA16E201477E68900EEC532 /* FirstTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTableViewController.xib; sourceTree = "<group>"; };
+		1CA16E2F1478058500EEC532 /* SecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLevelViewController.h; sourceTree = "<group>"; };
+		1CA16E301478058500EEC532 /* SecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLevelViewController.m; sourceTree = "<group>"; };
+		1CA16E321478066600EEC532 /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		1CA16E331478066600EEC532 /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		1CC43F7A149A48EF00232CC0 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		1CC43F7B149A48EF00232CC0 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		1CC43F7C149A48EF00232CC0 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		1CC43F7D149A48EF00232CC0 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		1CC43F7E149A48EF00232CC0 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		1CC43F7F149A48EF00232CC0 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		1CC43F80149A48EF00232CC0 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		1CC43F81149A48EF00232CC0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		1CC43F88149A518B00232CC0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1CC43F8A149A519D00232CC0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1CC43F8C149A51AC00232CC0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1CC43F8E149A51D400232CC0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1CD7A8CD14ACB06300311DF8 /* 82_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 82_ExamWorld.sqlite; path = SqliteFile/82_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8CE14ACB06300311DF8 /* 83_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 83_ExamWorld.sqlite; path = SqliteFile/83_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8CF14ACB06300311DF8 /* 84_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 84_ExamWorld.sqlite; path = SqliteFile/84_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8D014ACB06300311DF8 /* 85_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 85_ExamWorld.sqlite; path = SqliteFile/85_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8D114ACB06300311DF8 /* 86_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 86_ExamWorld.sqlite; path = SqliteFile/86_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8D214ACB06300311DF8 /* 87_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 87_ExamWorld.sqlite; path = SqliteFile/87_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8D314ACB06300311DF8 /* 88_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 88_ExamWorld.sqlite; path = SqliteFile/88_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8D414ACB06300311DF8 /* 89_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 89_ExamWorld.sqlite; path = SqliteFile/89_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8D514ACB06300311DF8 /* 90_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 90_ExamWorld.sqlite; path = SqliteFile/90_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8D614ACB06300311DF8 /* 91_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 91_ExamWorld.sqlite; path = SqliteFile/91_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8D714ACB06300311DF8 /* 92_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 92_ExamWorld.sqlite; path = SqliteFile/92_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8D814ACB06300311DF8 /* 93_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 93_ExamWorld.sqlite; path = SqliteFile/93_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8D914ACB06300311DF8 /* 94_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 94_ExamWorld.sqlite; path = SqliteFile/94_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8DA14ACB06300311DF8 /* 95_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 95_ExamWorld.sqlite; path = SqliteFile/95_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8DB14ACB06300311DF8 /* 96_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 96_ExamWorld.sqlite; path = SqliteFile/96_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8DC14ACB06300311DF8 /* 97_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 97_ExamWorld.sqlite; path = SqliteFile/97_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8DD14ACB06300311DF8 /* 98_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 98_ExamWorld.sqlite; path = SqliteFile/98_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8DE14ACB06300311DF8 /* 99_ExamWorld.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = 99_ExamWorld.sqlite; path = SqliteFile/99_ExamWorld.sqlite; sourceTree = "<group>"; };
+		1CD7A8F914B1705C00311DF8 /* AppIcon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon114x114.png; sourceTree = "<group>"; };
+		1CD7A8FC14B1706A00311DF8 /* AppIcon57X57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57X57.png; sourceTree = "<group>"; };
+		1CD7A8FE14B1712300311DF8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1CD7A90014B1713300311DF8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1CD7A90214B1714A00311DF8 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		1CD7A90414B1743800311DF8 /* AppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon72x72.png; sourceTree = "<group>"; };
+		1CEE3840148B1CE00064A4E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1CEE3843148B1D610064A4E6 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		1CEE3844148B1D610064A4E6 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		1CEE3845148B1D610064A4E6 /* QuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CA16DE81477E65700EEC532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC43F8F149A51D400232CC0 /* SystemConfiguration.framework in Frameworks */,
+				1CC43F8D149A51AC00232CC0 /* AudioToolbox.framework in Frameworks */,
+				1CC43F8B149A519D00232CC0 /* MessageUI.framework in Frameworks */,
+				1CC43F89149A518C00232CC0 /* MediaPlayer.framework in Frameworks */,
+				1C8EC92F149309E600766FB7 /* libsqlite3.dylib in Frameworks */,
+				1CEE3841148B1CE00064A4E6 /* QuartzCore.framework in Frameworks */,
+				1CA16DF01477E65700EEC532 /* UIKit.framework in Frameworks */,
+				1CA16DF21477E65700EEC532 /* Foundation.framework in Frameworks */,
+				1CA16DF41477E65700EEC532 /* CoreGraphics.framework in Frameworks */,
+				1CC43F82149A48EF00232CC0 /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA16E021477E65700EEC532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA16E081477E65700EEC532 /* SenTestingKit.framework in Frameworks */,
+				1CA16E091477E65700EEC532 /* UIKit.framework in Frameworks */,
+				1CA16E0A1477E65700EEC532 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA16DE01477E65700EEC532 = {
+			isa = PBXGroup;
+			children = (
+				1C59A4BF15D7D7E00038F961 /* AppIcon144x144.png */,
+				1C18FB8615C4A60100CDF161 /* Default-Landscape@2x~ipad.png */,
+				1C66858A15C2CCDD006FB236 /* Default-Landscape~ipad.png */,
+				1C66858815C2CCC9006FB236 /* Default-Portrait@2x~ipad.png */,
+				1CD7A90614B2181300311DF8 /* Image */,
+				1CC43F6F149A480A00232CC0 /* Admob lib */,
+				1CEE3851148B26770064A4E6 /* Sqlite lib */,
+				1CA16DF51477E65700EEC532 /* ExamWorld */,
+				1CA16E0D1477E65700EEC532 /* ExamWorldTests */,
+				1CA16DEE1477E65700EEC532 /* Frameworks */,
+				1CA16DEC1477E65700EEC532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CA16DEC1477E65700EEC532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CA16DEB1477E65700EEC532 /* 公職考卷.app */,
+				1CA16E061477E65700EEC532 /* ExamWorldTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CA16DEE1477E65700EEC532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C8EC92E149309E600766FB7 /* libsqlite3.dylib */,
+				1CC43F8E149A51D400232CC0 /* SystemConfiguration.framework */,
+				1CC43F8C149A51AC00232CC0 /* AudioToolbox.framework */,
+				1CC43F8A149A519D00232CC0 /* MessageUI.framework */,
+				1CC43F88149A518B00232CC0 /* MediaPlayer.framework */,
+				1CEE3840148B1CE00064A4E6 /* QuartzCore.framework */,
+				1CA16DEF1477E65700EEC532 /* UIKit.framework */,
+				1CA16DF11477E65700EEC532 /* Foundation.framework */,
+				1CA16DF31477E65700EEC532 /* CoreGraphics.framework */,
+				1CA16E071477E65700EEC532 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CA16DF51477E65700EEC532 /* ExamWorld */ = {
+			isa = PBXGroup;
+			children = (
+				1CA16DFE1477E65700EEC532 /* AppDelegate.h */,
+				1CA16DFF1477E65700EEC532 /* AppDelegate.m */,
+				1CA16DF61477E65700EEC532 /* Supporting Files */,
+				1CA16E1E1477E68900EEC532 /* FirstTableViewController.h */,
+				1CA16E1F1477E68900EEC532 /* FirstTableViewController.m */,
+				1CA16E201477E68900EEC532 /* FirstTableViewController.xib */,
+				1CA16E2F1478058500EEC532 /* SecondLevelViewController.h */,
+				1CA16E301478058500EEC532 /* SecondLevelViewController.m */,
+				1CA16E321478066600EEC532 /* SecondTableViewController.h */,
+				1CA16E331478066600EEC532 /* SecondTableViewController.m */,
+				1C89D3B514827B1500D51407 /* ThirdTableViewController.h */,
+				1C89D3B614827B1500D51407 /* ThirdTableViewController.m */,
+				1C89D3B814827D0A00D51407 /* FourthTableViewController.h */,
+				1C89D3B914827D0A00D51407 /* FourthTableViewController.m */,
+				1CEE3843148B1D610064A4E6 /* QuestionViewController.h */,
+				1CEE3844148B1D610064A4E6 /* QuestionViewController.m */,
+				1CEE3845148B1D610064A4E6 /* QuestionViewController.xib */,
+				1C2E6EC41497A90800511649 /* AnswerViewController.h */,
+				1C2E6EC51497A90800511649 /* AnswerViewController.m */,
+				1C2E6EC61497A90800511649 /* AnswerViewController.xib */,
+			);
+			path = ExamWorld;
+			sourceTree = "<group>";
+		};
+		1CA16DF61477E65700EEC532 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CA16DF71477E65700EEC532 /* ExamWorld-Info.plist */,
+				1CA16DF81477E65700EEC532 /* InfoPlist.strings */,
+				1CA16DFB1477E65700EEC532 /* main.m */,
+				1CA16DFD1477E65700EEC532 /* ExamWorld-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CA16E0D1477E65700EEC532 /* ExamWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CA16E131477E65700EEC532 /* ExamWorldTests.h */,
+				1CA16E141477E65700EEC532 /* ExamWorldTests.m */,
+				1CA16E0E1477E65700EEC532 /* Supporting Files */,
+			);
+			path = ExamWorldTests;
+			sourceTree = "<group>";
+		};
+		1CA16E0E1477E65700EEC532 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CA16E0F1477E65700EEC532 /* ExamWorldTests-Info.plist */,
+				1CA16E101477E65700EEC532 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CC43F6F149A480A00232CC0 /* Admob lib */ = {
+			isa = PBXGroup;
+			children = (
+				1CC43F7A149A48EF00232CC0 /* GADBannerView.h */,
+				1CC43F7B149A48EF00232CC0 /* GADBannerViewDelegate.h */,
+				1CC43F7C149A48EF00232CC0 /* GADInterstitial.h */,
+				1CC43F7D149A48EF00232CC0 /* GADInterstitialDelegate.h */,
+				1CC43F7E149A48EF00232CC0 /* GADRequest.h */,
+				1CC43F7F149A48EF00232CC0 /* GADRequestError.h */,
+				1CC43F80149A48EF00232CC0 /* libGoogleAdMobAds.a */,
+				1CC43F81149A48EF00232CC0 /* README.txt */,
+			);
+			name = "Admob lib";
+			sourceTree = "<group>";
+		};
+		1CD7A90614B2181300311DF8 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1CD7A90414B1743800311DF8 /* AppIcon72x72.png */,
+				1CD7A90214B1714A00311DF8 /* Default-Portrait~ipad.png */,
+				1CD7A90014B1713300311DF8 /* Default@2x.png */,
+				1CD7A8FE14B1712300311DF8 /* Default.png */,
+				1CD7A8FC14B1706A00311DF8 /* AppIcon57X57.png */,
+				1CD7A8F914B1705C00311DF8 /* AppIcon114x114.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		1CEE3851148B26770064A4E6 /* Sqlite lib */ = {
+			isa = PBXGroup;
+			children = (
+				1C08766B14F003C6009C3DFD /* 100_ExamWorld.sqlite */,
+				1C08766C14F003C6009C3DFD /* 101_ExamWorld.sqlite */,
+				1CD7A8CD14ACB06300311DF8 /* 82_ExamWorld.sqlite */,
+				1CD7A8CE14ACB06300311DF8 /* 83_ExamWorld.sqlite */,
+				1CD7A8CF14ACB06300311DF8 /* 84_ExamWorld.sqlite */,
+				1CD7A8D014ACB06300311DF8 /* 85_ExamWorld.sqlite */,
+				1CD7A8D114ACB06300311DF8 /* 86_ExamWorld.sqlite */,
+				1CD7A8D214ACB06300311DF8 /* 87_ExamWorld.sqlite */,
+				1CD7A8D314ACB06300311DF8 /* 88_ExamWorld.sqlite */,
+				1CD7A8D414ACB06300311DF8 /* 89_ExamWorld.sqlite */,
+				1CD7A8D514ACB06300311DF8 /* 90_ExamWorld.sqlite */,
+				1CD7A8D614ACB06300311DF8 /* 91_ExamWorld.sqlite */,
+				1CD7A8D714ACB06300311DF8 /* 92_ExamWorld.sqlite */,
+				1CD7A8D814ACB06300311DF8 /* 93_ExamWorld.sqlite */,
+				1CD7A8D914ACB06300311DF8 /* 94_ExamWorld.sqlite */,
+				1CD7A8DA14ACB06300311DF8 /* 95_ExamWorld.sqlite */,
+				1CD7A8DB14ACB06300311DF8 /* 96_ExamWorld.sqlite */,
+				1CD7A8DC14ACB06300311DF8 /* 97_ExamWorld.sqlite */,
+				1CD7A8DD14ACB06300311DF8 /* 98_ExamWorld.sqlite */,
+				1CD7A8DE14ACB06300311DF8 /* 99_ExamWorld.sqlite */,
+			);
+			name = "Sqlite lib";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CA16DEA1477E65700EEC532 /* ExamWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA16E181477E65700EEC532 /* Build configuration list for PBXNativeTarget "ExamWorld" */;
+			buildPhases = (
+				1CA16DE71477E65700EEC532 /* Sources */,
+				1CA16DE81477E65700EEC532 /* Frameworks */,
+				1CA16DE91477E65700EEC532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExamWorld;
+			productName = ExamWorld;
+			productReference = 1CA16DEB1477E65700EEC532 /* 公職考卷.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CA16E051477E65700EEC532 /* ExamWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA16E1B1477E65700EEC532 /* Build configuration list for PBXNativeTarget "ExamWorldTests" */;
+			buildPhases = (
+				1CA16E011477E65700EEC532 /* Sources */,
+				1CA16E021477E65700EEC532 /* Frameworks */,
+				1CA16E031477E65700EEC532 /* Resources */,
+				1CA16E041477E65700EEC532 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA16E0C1477E65700EEC532 /* PBXTargetDependency */,
+			);
+			name = ExamWorldTests;
+			productName = ExamWorldTests;
+			productReference = 1CA16E061477E65700EEC532 /* ExamWorldTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CA16DE21477E65700EEC532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1CA16DE51477E65700EEC532 /* Build configuration list for PBXProject "ExamWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1CA16DE01477E65700EEC532;
+			productRefGroup = 1CA16DEC1477E65700EEC532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CA16DEA1477E65700EEC532 /* ExamWorld */,
+				1CA16E051477E65700EEC532 /* ExamWorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CA16DE91477E65700EEC532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA16DFA1477E65700EEC532 /* InfoPlist.strings in Resources */,
+				1CA16E221477E68900EEC532 /* FirstTableViewController.xib in Resources */,
+				1CEE3847148B1D610064A4E6 /* QuestionViewController.xib in Resources */,
+				1C2E6EC81497A90800511649 /* AnswerViewController.xib in Resources */,
+				1CC43F83149A48EF00232CC0 /* README.txt in Resources */,
+				1CD7A8DF14ACB06300311DF8 /* 82_ExamWorld.sqlite in Resources */,
+				1CD7A8E014ACB06300311DF8 /* 83_ExamWorld.sqlite in Resources */,
+				1CD7A8E114ACB06300311DF8 /* 84_ExamWorld.sqlite in Resources */,
+				1CD7A8E214ACB06300311DF8 /* 85_ExamWorld.sqlite in Resources */,
+				1CD7A8E314ACB06300311DF8 /* 86_ExamWorld.sqlite in Resources */,
+				1CD7A8E414ACB06300311DF8 /* 87_ExamWorld.sqlite in Resources */,
+				1CD7A8E514ACB06300311DF8 /* 88_ExamWorld.sqlite in Resources */,
+				1CD7A8E614ACB06300311DF8 /* 89_ExamWorld.sqlite in Resources */,
+				1CD7A8E714ACB06300311DF8 /* 90_ExamWorld.sqlite in Resources */,
+				1CD7A8E814ACB06300311DF8 /* 91_ExamWorld.sqlite in Resources */,
+				1CD7A8E914ACB06300311DF8 /* 92_ExamWorld.sqlite in Resources */,
+				1CD7A8EA14ACB06300311DF8 /* 93_ExamWorld.sqlite in Resources */,
+				1CD7A8EB14ACB06300311DF8 /* 94_ExamWorld.sqlite in Resources */,
+				1CD7A8EC14ACB06300311DF8 /* 95_ExamWorld.sqlite in Resources */,
+				1CD7A8ED14ACB06300311DF8 /* 96_ExamWorld.sqlite in Resources */,
+				1CD7A8EE14ACB06300311DF8 /* 97_ExamWorld.sqlite in Resources */,
+				1CD7A8EF14ACB06300311DF8 /* 98_ExamWorld.sqlite in Resources */,
+				1CD7A8F014ACB06300311DF8 /* 99_ExamWorld.sqlite in Resources */,
+				1CD7A8FA14B1705C00311DF8 /* AppIcon114x114.png in Resources */,
+				1CD7A8FF14B1712300311DF8 /* Default.png in Resources */,
+				1CD7A90114B1713300311DF8 /* Default@2x.png in Resources */,
+				1CD7A90314B1714A00311DF8 /* Default-Portrait~ipad.png in Resources */,
+				1CD7A90514B1743800311DF8 /* AppIcon72x72.png in Resources */,
+				1CD7A91514B75AF500311DF8 /* AppIcon57X57.png in Resources */,
+				1C08766D14F003C6009C3DFD /* 100_ExamWorld.sqlite in Resources */,
+				1C08766E14F003C6009C3DFD /* 101_ExamWorld.sqlite in Resources */,
+				1C66858915C2CCC9006FB236 /* Default-Portrait@2x~ipad.png in Resources */,
+				1C66858B15C2CCDD006FB236 /* Default-Landscape~ipad.png in Resources */,
+				1C18FB8715C4A60100CDF161 /* Default-Landscape@2x~ipad.png in Resources */,
+				1C59A4C015D7D7E00038F961 /* AppIcon144x144.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA16E031477E65700EEC532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA16E121477E65700EEC532 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CA16E041477E65700EEC532 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CA16DE71477E65700EEC532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA16DFC1477E65700EEC532 /* main.m in Sources */,
+				1CA16E001477E65700EEC532 /* AppDelegate.m in Sources */,
+				1CA16E211477E68900EEC532 /* FirstTableViewController.m in Sources */,
+				1CA16E311478058500EEC532 /* SecondLevelViewController.m in Sources */,
+				1CA16E341478066600EEC532 /* SecondTableViewController.m in Sources */,
+				1C89D3B714827B1500D51407 /* ThirdTableViewController.m in Sources */,
+				1C89D3BA14827D0A00D51407 /* FourthTableViewController.m in Sources */,
+				1CEE3846148B1D610064A4E6 /* QuestionViewController.m in Sources */,
+				1C2E6EC71497A90800511649 /* AnswerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA16E011477E65700EEC532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA16E151477E65700EEC532 /* ExamWorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CA16E0C1477E65700EEC532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA16DEA1477E65700EEC532 /* ExamWorld */;
+			targetProxy = 1CA16E0B1477E65700EEC532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CA16DF81477E65700EEC532 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA16DF91477E65700EEC532 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CA16E101477E65700EEC532 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA16E111477E65700EEC532 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CA16E161477E65700EEC532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ford Hsieh";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ford Hsieh";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "C55C4AD9-91D0-475B-8B67-A909C0C97CA3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C55C4AD9-91D0-475B-8B67-A909C0C97CA3";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1CA16E171477E65700EEC532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ford Hsieh";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ford Hsieh";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C55C4AD9-91D0-475B-8B67-A909C0C97CA3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C55C4AD9-91D0-475B-8B67-A909C0C97CA3";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CA16E191477E65700EEC532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COMPRESS_PNG_FILES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExamWorld/ExamWorld-Prefix.pch";
+				INFOPLIST_FILE = "ExamWorld/ExamWorld-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "公職考卷";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1CA16E1A1477E65700EEC532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COMPRESS_PNG_FILES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExamWorld/ExamWorld-Prefix.pch";
+				INFOPLIST_FILE = "ExamWorld/ExamWorld-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "公職考卷";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1CA16E1C1477E65700EEC532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExamWorld.app/ExamWorld";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExamWorld/ExamWorld-Prefix.pch";
+				INFOPLIST_FILE = "ExamWorldTests/ExamWorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1CA16E1D1477E65700EEC532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExamWorld.app/ExamWorld";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExamWorld/ExamWorld-Prefix.pch";
+				INFOPLIST_FILE = "ExamWorldTests/ExamWorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		1CD7A90C14B7435B00311DF8 /* distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ford Hsieh";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ford Hsieh";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C55C4AD9-91D0-475B-8B67-A909C0C97CA3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C55C4AD9-91D0-475B-8B67-A909C0C97CA3";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = distribution;
+		};
+		1CD7A90D14B7435B00311DF8 /* distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COMPRESS_PNG_FILES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExamWorld/ExamWorld-Prefix.pch";
+				INFOPLIST_FILE = "ExamWorld/ExamWorld-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "公職考卷";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = distribution;
+		};
+		1CD7A90E14B7435B00311DF8 /* distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExamWorld.app/ExamWorld";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExamWorld/ExamWorld-Prefix.pch";
+				INFOPLIST_FILE = "ExamWorldTests/ExamWorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CA16DE51477E65700EEC532 /* Build configuration list for PBXProject "ExamWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA16E161477E65700EEC532 /* Debug */,
+				1CA16E171477E65700EEC532 /* Release */,
+				1CD7A90C14B7435B00311DF8 /* distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = distribution;
+		};
+		1CA16E181477E65700EEC532 /* Build configuration list for PBXNativeTarget "ExamWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA16E191477E65700EEC532 /* Debug */,
+				1CA16E1A1477E65700EEC532 /* Release */,
+				1CD7A90D14B7435B00311DF8 /* distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = distribution;
+		};
+		1CA16E1B1477E65700EEC532 /* Build configuration list for PBXNativeTarget "ExamWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA16E1C1477E65700EEC532 /* Debug */,
+				1CA16E1D1477E65700EEC532 /* Release */,
+				1CD7A90E14B7435B00311DF8 /* distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CA16DE21477E65700EEC532 /* Project object */;
+}
