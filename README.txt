@@ -1,1 +1,1 @@
-![image](ExamWorld1)
+![image](ExamWorld1.png)
